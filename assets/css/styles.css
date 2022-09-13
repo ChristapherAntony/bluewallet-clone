@@ -19,6 +19,27 @@
   }
 }
 
+
+@media screen and (max-width: 960px) {
+  .mainHead {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 10%;
+    text-align: center;
+  }
+  .abc {
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
+@media screen and (max-width: 767px){
+  .playstorebtn{
+    padding-top: 3.5%;
+  }
+}
+  
+
+
 .row > div {
   padding-left: 0px;
   padding-right: 0px;
@@ -46,14 +67,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 960px) {
-  .mainHead {
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding-top: 10%;
-    text-align: center;
-  }
-}
+
 
 .emailSubButton {
   width: 80%;
@@ -72,11 +86,7 @@
   color: #637082;
 }
 
-@media screen and (max-width: 770px) {
-  .socialLogo {
-    padding-top: 10%;
-  }
-}
+
 @media screen and (max-width: 770px) {
   .emailSubButton {
     width: 100%;
@@ -89,6 +99,10 @@
   }
   .copyright {
     margin-bottom: 60px;
+  }
+
+  .socialLogo {
+    padding-top: 10%;
   }
 }
 .product > a {
@@ -124,6 +138,7 @@
   }
   .playstorebtn {
     margin-left: 6%;
+    
   }
 }
 
@@ -134,6 +149,7 @@
   .playstorebtnBottom {
     margin-left: 0;
     margin-top: 2%;
+    
   }
 }
 @media screen and (min-width: 960px) {
